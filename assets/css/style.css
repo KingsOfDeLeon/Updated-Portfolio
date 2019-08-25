@@ -33,6 +33,13 @@
   text-align: center;
   margin: 0;
 }
+.dark-bkg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+  }
 
 .fill {
   min-height: 100%;
@@ -120,7 +127,7 @@
 
 .sectionHeader {
   margin-top: 2%;
-  height: 25vh;
+  height: 15vh;
   width: 100vw;
   text-align: center;
   vertical-align: middle;
@@ -156,4 +163,9 @@ nav {
 
 .project-Name{
     margin-top: 10px;
+}
+
+.form-color{
+    background-color: #1e242c;
+    color: white;
 }

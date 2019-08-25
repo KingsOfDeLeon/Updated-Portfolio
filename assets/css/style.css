@@ -20,14 +20,16 @@
 .blank-bkg {
   background: white;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   text-align: center;
   margin: 0;
 }
 .beige-bkg {
   background: whitesmoke;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   text-align: center;
   margin: 0;
 }
@@ -125,6 +127,10 @@
   font-size: 36pt;
 }
 
+.portfolioHeader {
+    font-size: 28pt;
+  }
+
 nav {
   border-bottom: 5px solid cornflowerblue;
 }
@@ -141,4 +147,13 @@ nav {
 
 .profile-img {
   border-radius: 50%;
+}
+
+.homework-Image{
+    width: 200px;
+    height: 100px;
+}
+
+.project-Name{
+    margin-top: 10px;
 }

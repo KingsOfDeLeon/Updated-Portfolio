@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- ====== Home Section ====== -->
     <section id="home">
         <div class="container-fluid removePadding">
             <div class="row">
@@ -42,8 +43,10 @@
         </div>
     </section>
 
+    <!-- ====== NavBar Section ====== -->
     <div class="navbarContainer container-fluid removePadding">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark stick">
+            <!-- stick class is supposed to make the nav bar stick to the top once I scroll past it... -->
             <a class="navbar-brand" href="#home">Luke DeLeon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,15 +70,78 @@
             </div>
         </nav>
     </div>
+
+    <!-- ====== About Section ====== -->
     <section id="about">
-        <div class="container-fluid removePadding">
-            <div class="row-fluid">
-                <div class="col-sm-12 fill">
-                    <div id="aboutHeader">
+        <div class="container-fluid removePadding fill blank-bkg">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sectionHeader">
                         About
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-4 col-personal text-center">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="text-center" style="padding-top: 15px">
+                            <img src="./assets/images/Personal_Icon_small.png" alt="Personal Icon" height="75px"
+                                width="75px">
+                        </div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Personal</h5>
+                            <button class="btn btn-primary btn-personal">See more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-educational text-center">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="text-center" style="padding-top: 15px">
+                            <img src="./assets/images/Education_Icon_small.png" alt="Personal Icon" height="75px"
+                                width="75px">
+                        </div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Education</h5>
+                            <button class="btn btn-primary btn-educational">See more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-professional text-center">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="text-center" style="padding-top: 15px">
+                            <img src="./assets/images/Professional_Icon_small.png" alt="Personal Icon" height="75px"
+                                width="75px">
+                        </div>
+                        <div class="card-body text-primary">
+                            <h5 class="card-title">Profession</h5>
+                            <button class="btn btn-primary btn-professional">See more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 50px">
+                <div class="col-sm-5">
+                    <div class="text-center">
+                        <img class="profile-img" src="./assets/images/Profile_Pic.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-7 bio-Info-Here">
+                    <!-- Remember to populate bio info here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container-fluid removePadding fill beige-bkg">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sectionHeader">
+                        Projects
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </section>
